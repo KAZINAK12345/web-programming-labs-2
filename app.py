@@ -3,8 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 @app.route("/index")
-@app.route("/lab1")
-def lab1():
+def start():
     return """
 <!doctype html>
 <html>
